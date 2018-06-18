@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Desafio</string>
+    <string name="app_label">Busca todo lo que queres</string>
+    <string name="search_hint">Busqueda</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="accept_Mp">"CFT 0% (hasta 6 sin interes)con Tarjeta MercadoPago "</string>
+    <string name="garantia_producto">"Garantia: "</string>
+    <string name="marca_prodocto">"Producto: "</string>
+</resources>

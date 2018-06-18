@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewProduct">
+
+    <ImageView
+        android:id="@+id/ivVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription=" "
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tvTitleVP"
+        style="@style/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra" />
+
+    <TextView
+        android:id="@+id/tvPriceVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAcceptMp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvMercadoPagoVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvDimensiones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLetra"
+        android:textSize="18sp" />
+
+</LinearLayout>
